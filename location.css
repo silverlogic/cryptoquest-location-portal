@@ -2,8 +2,10 @@ body {
     box-sizing: border-box;
 }
 
-#add-faucet {
+.coin-buttons button {
     padding-bottom: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
 }
 
 .spawn-list {
