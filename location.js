@@ -1,7 +1,7 @@
 let socket;
 
 function connect() {
-    socket = new WebSocket('ws://localhost:8000');
+    socket = new WebSocket('ws://2878e977.ngrok.io/:8000');
 
     socket.addEventListener('open', function(event) {
         console.log('open');
@@ -58,6 +58,13 @@ function addFaucet() {
         type: 'spawn_add',
         data: {
         }
+    }));
+}
+
+function bossTime() {
+    socket.send(JSON.stringify({
+        type: 'shitcoin',
+        data: {}
     }));
 }
 
