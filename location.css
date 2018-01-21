@@ -1,0 +1,42 @@
+body {
+    box-sizing: border-box;
+}
+
+#add-faucet {
+    padding-bottom: 5px;
+}
+
+.spawn-list {
+    list-style: none;
+    border-collapse: collapse;
+    margin: 0;
+    padding-left: 0;
+}
+
+.spawn-list li {
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+    border-collapse: collapse;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.spawn-list li img {
+    border-radius: 2px;
+    padding: 2px;
+}
+
+.people-list {
+    list-style: none;
+    border-collapse: collapse;
+    margin: 0;
+    padding-left: 0;
+}
+
+.people-list li {
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+    border-collapse: collapse;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}

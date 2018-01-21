@@ -1,0 +1,17 @@
+#connection-status.disconnected {
+    background-color: red;
+}
+
+#connection-status.connected {
+    background-color: green;
+}
+
+#messages {
+    width: 70%;
+    display: inline-block;
+}
+
+#debug {
+    width: 20%;
+    display: inline-block;
+}

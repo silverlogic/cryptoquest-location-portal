@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <script src="./index.js"></script>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <section id="wrapper">
+        <h1 id="connection-status" class="disconnected">Disconnected</h1>
+        <section id="debug">
+            <div>
+                <button onclick="shoot()">Shoot</button>
+                <input id="shoot-spawn-id" type="text">
+            </div>
+            <div>
+                <button onclick="session()">Session Start</button>
+                <input id="session-user-id" type="text">
+            </div>
+        </section>
+        <section id="messages"></section>
+    </section>
+</body>
+</html>
